@@ -10,14 +10,14 @@ At last, a user-interface friendly [Wine](https://www.winehq.org/) (A compatibil
 
 ## Download
 
-You can find the latest version on the [Releases page](https://gitlab.melroy.org/melroy/winegui/-/releases) of GitLab.
+You can find the latest version on the [Releases page](https://github.com/psygreg/WineGUI/releases).
 
-Download the WineGUI package you require for your Linux distribution. I provide `.deb`, `.rpm` and `.tar.gz` files:
+Download the WineGUI package you require for your Linux distribution. I provide `.deb`, `.rpm` and `.tar.zst` files:
 
 - Use the `.deb` package file for Ubuntu, Debian, Linux Mint, Zorin OS, MX linux, and other Debian-based distributions.
 - Use the `.rpm` package for Fedora, RHEL, and similar distributions.
-- The Compressed Binary `.tar.gz` file is available for manual installation or standalone usage. This is prebuild.
-- The Source Code Archive (also `tar.gz`) is intented for building WineGUI from source.
+- Use the `.tar.zst` package for Arch Linux and similar distributions.
+- You can build it from source if you so desire by cloning this repository.
 
 Install the package and you are ready to go! WineGUI should be listed in your menu.
 
