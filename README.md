@@ -16,10 +16,15 @@ Download the WineGUI package you require for your Linux distribution. I provide 
 
 - Use the `.deb` package file for Ubuntu, Debian, Linux Mint, Zorin OS, MX linux, and other Debian-based distributions.
 - Use the `.rpm` package for Fedora, RHEL, and similar distributions.
-- Use the `.tar.zst` package for Arch Linux and similar distributions. Install with `pacman -U`.
+- Use the `PKGBUILD` for Arch Linux and similar distributions.
 - You can build it from source if you so desire by cloning this repository.
 
-Install the package and you are ready to go! WineGUI should be listed in your menu.
+## Installation for Arch Linux
+
+Presuming your PKGBUILD file is at your Downloads folder:\
+`cd downloads`\
+`makepkg -i`\
+It is safe to delete the build files after the installation.
 
 **Run-time requirement:** Wine v9 or higher.
 
